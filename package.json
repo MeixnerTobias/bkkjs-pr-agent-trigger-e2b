@@ -1,0 +1,22 @@
+{
+    "name": "bkkjs20",
+    "module": "src/index.ts",
+    "type": "module",
+    "scripts": {
+        "trigger:dev": "pnpm dlx trigger.dev@latest dev",
+        "dev": "bun run --watch src/index.ts"
+    },
+    "dependencies": {
+        "@e2b/sdk": "^1.0.7",
+        "@langchain/openai": "^0.4.4",
+        "@octokit/rest": "^21.1.1",
+        "@octokit/webhooks-types": "^7.6.1",
+        "@trigger.dev/sdk": "^3.3.16",
+        "elysia": "^1.2.14",
+        "octokit": "^4.1.2"
+    },
+    "devDependencies": {
+        "@trigger.dev/build": "^3.3.16",
+        "bun-types": "latest"
+    }
+}
